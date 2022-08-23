@@ -5,7 +5,7 @@ public class Main {
         int cat = 2;
         byte dog = 3;
         short mouse = 4;
-        long elephant = 111l;
+        long elephant = 111L;
         double sugarWeight = 4.5;
         float saltWeight = 1.5f;
         boolean dogIsAdult = dog < 10;
@@ -50,11 +50,11 @@ public class Main {
         int DenisSalaryIncrease = (Denis * 10) / 100;
         int KristinaSalaryIncrease = (Kristina * 10) / 100;
         int MashaNewSalary = Masha + MashaSalaryIncrease;
-        System.out.println("Маша теперь получает " + MashaNewSalary + " рублей. Годовой доход вырос на " + MashaSalaryIncrease + " рублей");
+        System.out.println("Маша теперь получает " + MashaNewSalary + " рублей. Годовой доход вырос на " + (MashaSalaryIncrease * 12) + " рублей");
         int DenisNewSalary = Denis + DenisSalaryIncrease;
-        System.out.println("Денис теперь получает " + DenisNewSalary + " рублей. Годовой доход вырос на " + DenisSalaryIncrease + " рублей");
+        System.out.println("Денис теперь получает " + DenisNewSalary + " рублей. Годовой доход вырос на " + (DenisSalaryIncrease * 12) + " рублей");
         int KristinaNewSalary = Kristina + KristinaSalaryIncrease;
-        System.out.println("Кристина теперь получает " + KristinaNewSalary + " рублей. Годовой доход вырос на " + KristinaSalaryIncrease + " рублей");
+        System.out.println("Кристина теперь получает " + KristinaNewSalary + " рублей. Годовой доход вырос на " + (KristinaSalaryIncrease *12 ) + " рублей");
 
 
 
